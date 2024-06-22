@@ -1,0 +1,51 @@
+/* Reset margins and paddings for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;   
+}
+
+.qr-container {
+  background-color: hsl(0, 0%, 100%);
+  /* Viewport centering properties */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Container sizing, round edges and content centering, shadow */
+  width: 320px;
+  height: 497px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    position: relative;
+    top: 17px;
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.text-container {
+    position: relative;
+    top: 35px;
+}
+
+.text-container p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    position: relative;
+    top: 15px;
+}
+
+.text-container h1 {
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
